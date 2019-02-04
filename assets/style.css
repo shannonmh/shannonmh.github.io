@@ -61,3 +61,39 @@ body {
 .about-text {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
+
+.portfolio {
+    margin-bottom: 20px;
+}
+
+.portfolio-title {
+    font-family: "Couture";
+    font-size: 16px;
+    color: black;
+}
+
+.portfolio-text {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.portfolio-content {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.portfolio-header {
+    font-family: "Couture";
+}
+
+.portfolio-alpha {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+}
+
+.contact-content {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}

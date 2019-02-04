@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Couture";
+    src: url(../assets/couture/couture-bld.otf)
+}
+
+body {
+    background-image: url("images/198689-texture-abstract-blue-748x499_larger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-link {
+    font-family: "Couture";
+}
+
+.content-header {
+    font-family: "Couture";
+}
+
+.main-header {
+    font-family: "Couture";
+    color: white;
+    background-size: cover;
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.navbar-brand {
+    font-family: "Couture";
+}
+
+#type {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 110px !important;
+    color: white;
+}
+
+.fab {
+    color: white;
+    padding: 125px 100px 75px 100px;
+}
+
+.footer {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color: black;
+}
+
+.alpha-bg {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: block;
+    margin-bottom: 25px;
+}
+
+.about-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-text {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}

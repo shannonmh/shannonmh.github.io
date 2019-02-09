@@ -94,10 +94,7 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
     display: flex;
     flex-flow: row wrap;
-    /* flex-flow: column wrap; */
     justify-content: space-around;
-    /* justify-content: center;
-    align-items or allign-content: space around or center; */
     margin-bottom: 25px;
     width: 100%;
     padding: 25px 0px 25px 0px;
@@ -114,6 +111,7 @@ body {
       flex-flow: column wrap;
       justify-content: center;
       align-content: space-between;
+      margin: auto;
     }
 
     #type {
@@ -122,6 +120,20 @@ body {
 
     .main-header {
         font-size: 40px;
+    }
+
+    .col-sm-12 {
+        margin-top: 15px;
+    }
+
+    .fab {
+        padding: 80px 55px 30px 55px;
+    }
+  }
+
+  @media only screen and (min-width: 994px) {
+    .card {
+        width: 18rem;
     }
   }
 
@@ -132,6 +144,7 @@ body {
       flex-flow: column wrap;
       justify-content: center;
       align-content: space-between;
+      margin: auto;
     }
 
     #type {
@@ -144,5 +157,13 @@ body {
 
     body {
         background-attachment: fixed;
+    }
+
+    .col-sm-12 {
+        margin-top: 15px;
+    }
+
+    .fab {
+        padding: 50px 25px 5px 25px;
     }
   }

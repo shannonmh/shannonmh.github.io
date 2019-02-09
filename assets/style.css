@@ -8,6 +8,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .nav-link {
@@ -111,7 +113,7 @@ body {
       display: flex;
       flex-flow: column wrap;
       justify-content: center;
-      align-content: space-around;
+      align-content: space-between;
     }
 
     #type {
@@ -123,19 +125,24 @@ body {
     }
   }
 
-  @media only screen and (max-width: 401px) {
+  @media only screen and (max-width: 421px) {
     .portfolio-alpha {
       display: flex;
+      flex-direction: column;
       flex-flow: column wrap;
       justify-content: center;
-      align-content: space-around;
+      align-content: space-between;
     }
 
     #type {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .main-header {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    body {
+        background-attachment: fixed;
     }
   }

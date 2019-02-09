@@ -87,7 +87,12 @@ body {
 
 .portfolio-alpha {
     background-color: rgba(255, 255, 255, 0.4);
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-flow: column wrap; */
+    justify-content: space-around;
+    /* justify-content: center;
+    align-items or allign-content: space around or center; */
     margin-bottom: 25px;
     width: 100%;
     padding: 25px 0px 25px 0px;
@@ -97,3 +102,9 @@ body {
     text-align: center;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
+
+@media only screen and (max-width: 993px) {
+    .portfolio_alpha {
+      background-color: black;
+    }
+  }
